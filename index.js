@@ -18,5 +18,6 @@ function destructivelyRemoveFirstKitten (){
 };
 
 function appendKitten (){
-  kittens = [ . . .kittens, Broom];
+  var newKittens = [. . .kittens, Broom];
+  return newKittens;
 };
